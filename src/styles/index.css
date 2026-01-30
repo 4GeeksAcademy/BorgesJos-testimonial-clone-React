@@ -1,3 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 20px 0;
+}
+
+.container-home {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-h1 {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-container {
+  width: 1000px;
+  height: 350px;
+  margin: 10px 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px 1px rgb(0 0 0 / 9%);
+}
+
+.image-testimonial {
+  height: 65%;
+  width: auto;
+}
+
+.container-text {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.name-text1 {
+  font-size: 1.3rem;
+}
+
+.name-text2 {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  color: red;
+  text-align: justify;
+}
+
+
 /* 
 
     You can write your own styles here...
